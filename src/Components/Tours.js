@@ -1,9 +1,11 @@
 import React from 'react';
 import Tour from './Tour';
-
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import { u } from 'react-bootstrap'
 function tours({tours}) {
     return ( 
         <section>
+            <h1>Our Tours</h1>
             <div className='Tour'>
             {tours.map( ( tour ) =>
             {

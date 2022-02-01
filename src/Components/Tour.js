@@ -7,7 +7,6 @@ import '../App.css'
 function Tour({id, name, info, price, image }) {
     return (
         <section className='container'>
-        <h1>Our Tours</h1>
         <Card className='Card'>
             <img src={image} alt={name} />
             <footer>
