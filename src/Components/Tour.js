@@ -11,13 +11,13 @@ function Tour({id, name, info, price, image }) {
         <Card className='Card'>
             <img src={image} alt={name} />
             <footer>
-                <div>
+                <div id='name-price'>
                     <h3>{name}</h3>
                     <h4>${price}</h4>
                 </div>
                 <div>
                     <p className='p'>{info}</p>
-                    <Button onclick={() => {}}>Not Interested</Button>
+                    <Button className='button' onclick={() => {}}>Not Interested</Button>
                 </div>
             </footer>
         </Card>

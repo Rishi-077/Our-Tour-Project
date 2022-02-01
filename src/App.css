@@ -28,24 +28,37 @@ div .p {
   font-size: 20px;
   color: #495057;
   text-align: left;
-}
-footer div h3 {
-  display: inline-block;
-  justify-content: flex-start;
-  margin-right:380px;
-  margin-bottom: 25px;
+  padding: 30px;
 }
 
-footer div h4 {
-  display: inline-block;
-  justify-items: flex-end;
-  margin-left: 220px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  padding-left: 25px;
-  padding-right: 25px;
-  border-radius: 25px;
+#name-price h3 { 
+  /* text-align: left; */
+  display: flex;
+  justify-content: flex-start;;
+  margin-left: 45px;
+  margin-top: 25px;
+  display: block;
+
+}
+#name-price h4 {
+  display: flex;
+  justify-content: flex-end;
   color: #023e8a;
   background-color: #ade8f4;
+  margin-left: 500px;
+  border-radius: 18px;
+  padding: 10px 20px;
+  margin-top: -10px;
+  display: block;
+  margin-top: 25px;
 }
-
+#name-price {
+  
+  display: flex;
+  
+}
+ .button {
+   padding: 20px 90px;
+   font-size: 25px;
+   border-radius: 40px;
+ }
