@@ -25,40 +25,34 @@ body {
   margin-bottom: 30px;
 } 
 div .p {
-  font-size: 20px;
+  font-size: 22px;
   color: #495057;
   text-align: left;
-  padding: 30px;
+  padding: 10px;
+  margin: 25px;
+  margin-top: -15px;
 }
 
-#name-price h3 { 
-  /* text-align: left; */
-  display: flex;
-  justify-content: flex-start;;
-  margin-left: 45px;
-  margin-top: 25px;
-  display: block;
-
-}
-#name-price h4 {
-  display: flex;
-  justify-content: flex-end;
-  color: #023e8a;
-  background-color: #ade8f4;
-  margin-left: 500px;
-  border-radius: 18px;
-  padding: 10px 20px;
-  margin-top: -10px;
-  display: block;
-  margin-top: 25px;
-}
-#name-price {
-  
-  display: flex;
-  
-}
  .button {
-   padding: 20px 90px;
+   padding: 15px 60px;
    font-size: 25px;
    border-radius: 40px;
  }
+
+ #name-price {
+   display: flex;
+   justify-content: space-between;
+   margin: 25px 25px;
+ }
+ #name-price h2 {
+   font-size: 24px;
+   text-align: left;
+ }
+ #name-price h4 {
+   font-size: 20px;
+   padding: 10px 30px;
+   margin-top: -8px;
+   margin-bottom: 25px;
+   color: white;
+ }
+ 

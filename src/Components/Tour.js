@@ -12,8 +12,8 @@ function Tour({id, name, info, price, image }) {
             <img src={image} alt={name} />
             <footer>
                 <div id='name-price'>
-                    <h3>{name}</h3>
-                    <h4>${price}</h4>
+                    <h2>{name}</h2>
+                    <h4 className='"badge rounded-pill bg-info text-dark"'>${price}</h4>
                 </div>
                 <div>
                     <p className='p'>{info}</p>
