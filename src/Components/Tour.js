@@ -4,7 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Card } from 'react-bootstrap';
 import '../App.css'
 
-function Tour({id, name, info, price, image }) {
+function Tour ( { id, name, info, price, image,removeTour } )
+{
+    const [ readMore, setReadMore ] = useState( true );
+
     return (
         <section className='container'>
         <Card className='Card'>
@@ -12,11 +15,14 @@ function Tour({id, name, info, price, image }) {
             <footer>
                 <div id='name-price'>
                     <h2>{name}</h2>
-                    <h4 className='"badge rounded-pill bg-info text-dark"'>${price}</h4>
+                    <h4 className='"badge rounded-pill text-dark"'>${price}</h4>
                 </div>
                 <div>
-                    <p className='p'>{info}</p>
-                    <Button className='button' onclick={() => {}}>Not Interested</Button>
+                        <p className='p'>{readMore ? info : `${ info.substring( 0, 200 )}...`}
+                            <button onClick={() => setReadMore( !readMore )}>{readMore ? 'show less': 'read more'}
+                            </button>
+                        </p>
+                    <Button className='button' onClick={() => removeTour(id)}>Not Interested</Button>
                 </div>
             </footer>
         </Card>

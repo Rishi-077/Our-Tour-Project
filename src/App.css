@@ -23,6 +23,7 @@ body {
   padding: 30px;
   margin-left: 90px;
   margin-bottom: 110px;
+  box-shadow: 0px 0px 105px #e5e5e5;
 } 
 div .p {
   font-size: 22px;
@@ -32,11 +33,21 @@ div .p {
   margin: 25px;
   margin-top: -15px;
 }
+.p button {
+  font-size: 21px;
+  background-color: white;
+  border: white;
+  color: #0096c7;
+  margin-left: 10px;
+}
 
  .button {
    padding: 15px 60px;
    font-size: 25px;
    border-radius: 40px;
+   border: #8eecf5 ;
+   color: #0096c7;
+   background-color: #8eecf5;
  }
 
  #name-price {
@@ -53,11 +64,24 @@ div .p {
    padding: 10px 30px;
    margin-top: -8px;
    margin-bottom: 25px;
-   color: white;
+   color: #0096c7;
+   background-color: #caf0f8;
  }
  
  section h1 {
    font-size: 80px;
     text-align: center;
     margin-top: 100px;
+ }
+
+ div .title {
+    font-size: 80px;
+    text-align: center;
+    margin-top: 100px;
+ }
+ #title-button {
+   display: flex;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 25px;
  }
